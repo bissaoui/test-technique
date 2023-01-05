@@ -1,0 +1,146 @@
+[
+    {
+      "title": " Un document HTML peut contenir _____",
+      "answer_1": "Des attributs",
+      "answer_2": "Des balises",
+      "answer_3": "Texte brut",
+      "answer_4": "Tout les réponses sont vrais",
+      "right_answer": "Tout les réponses sont vrais"
+    },
+    {
+      "title": "Une page conçue en HTML s’appelle _____",
+      "answer_1": ".htl",
+      "answer_2": ".html",
+      "answer_3": ".hml",
+      "answer_4": ".htnl",
+      "right_answer": ".html"
+    },
+    {
+      "title": "Un document HTML est enregistré avec l’extension ____.",
+      "answer_1": "Putting It Inside <b> Tag",
+      "answer_2": "Putting It Inside <strong> Tag",
+      "answer_3": "Customizing It With Font-Weight Property In CSS",
+      "answer_4": "All Answers Is Right",
+      "right_answer": "All Answers Is Right"
+    },
+    {
+      "title": "Si nous souhaitons placer du texte autour d’une image, quelle propriété CSS nous allons utiliser?",
+      "answer_1": "push",
+      "answer_2": "float",
+      "answer_3": "align",
+      "answer_4": "wrap",
+      "right_answer": "float"
+    },
+    {
+      "title": "Supposons que nous souhaitons organiser trois DIV de sorte que DIV 3 soit placé au-dessus de DIV1. Maintenant, quelle propriété CSS nous allons utiliser pour contrôler l’ordre de pile?",
+      "answer_1": "d-index",
+      "answer_2": "s-index",
+      "answer_3": "x-index",
+      "answer_4": "z-index",
+      "right_answer": "z-index"
+    },
+    {
+      "title": "Choisissez la balise HTML correcte pour un grand titre.",
+      "answer_1": "H1",
+      "answer_2": "Heading",
+      "answer_3": "Head",
+      "answer_4": "H6",
+      "right_answer": "H1"
+    },
+    {
+      "title": "Si on veut utiliser une jolie bordure en pointillé verte autour d’une image, quelle propriété css nous allons utiliser?",
+      "answer_1": "border-line",
+      "answer_2": "border-style",
+      "answer_3": " border-decoration",
+      "answer_4": "border-color",
+      "right_answer": "border-style"
+    },
+    {
+      "title": "Quelle organisation définit les standards Web?",
+      "answer_1": "Apple Inc.",
+      "answer_2": "IBM Corporation",
+      "answer_3": " World Wide Web Consortium",
+      "answer_4": " Microsoft Corporation",
+      "right_answer": "World Wide Web Consortium"
+    },
+    {
+      "title": " HTML est considéré comme ______ ?",
+      "answer_1": "Langage de programmation",
+      "answer_2": " Langage POO",
+      "answer_3": "Langage de haut niveau",
+      "answer_4": "Langage de balisage",
+      "right_answer": "Langage de balisage"
+    },
+    {
+      "title": "En HTML, Uniform Resource Locator (URL) est utilisé _____",
+      "answer_1": "Pour créer un document frame.",
+      "answer_2": "  Pour créer une image map dans une page Web.",
+      "answer_3": "Pour personnaliser l’image dans une page Web.",
+      "answer_4": "Pour identifier un nom ou une ressource sur Internet.",
+      "right_answer": "Pour identifier un nom ou une ressource sur Internet."
+    },
+    {
+      "title": "Quel attribut peut être ajouté à de nombreux éléments HTML / XHTML pour les identifier en tant que membre d’un groupe spécifique?",
+      "answer_1": "id",
+      "answer_2": " class",
+      "answer_3": "div",
+      "answer_4": "span",
+      "right_answer": "class"
+    },
+    {
+      "title": "À quoi sert les formulaires en HTML?",
+      "answer_1": "Pour afficher le contenu d’un email.",
+      "answer_2": " Pour afficher l’effet d’animation.",
+      "answer_3": "Pour recueillir les entrées de l’utilisateur.",
+      "answer_4": " Aucune de ces réponses",
+      "right_answer": "Pour recueillir les entrées de l’utilisateur."
+    },
+    {
+      "title": "À quoi sert iframe en HTML?",
+      "answer_1": "Pour afficher une page Web dans une page Web.",
+      "answer_2": " Pour afficher une page Web avec un effet d’animation.",
+      "answer_3": "Pour afficher une page Web sans navigateur.",
+      "answer_4": "Tout les réponses sont vrais",
+      "right_answer": "Pour afficher une page Web dans une page Web."
+    },
+    {
+      "title": "Qui est l’auteur principal du HTML?",
+      "answer_1": "Brendan Eich",
+      "answer_2": "Tim Berners-Lee",
+      "answer_3": "Développeur web",
+      "answer_4": "Google Inc",
+      "right_answer": "Tim Berners-Lee"
+    },
+    {
+      "title": "Un document HTML peut contenir _____",
+      "answer_1": "attributs",
+      "answer_2": " balises",
+      "answer_3": "brut",
+      "answer_4": "Tout les réponses sont vrais",
+      "right_answer": "Tout les réponses sont vrais"
+    },
+    {
+      "title": "Une page conçue en HTML s’appelle _____",
+      "answer_1": "Application",
+      "answer_2": " Page de garde",
+      "answer_3": " Front-end",
+      "answer_4": "Page Web",
+      "right_answer": "Page Web"
+    },
+    {
+      "title": "En quelle année est né HTML ?",
+      "answer_1": "Dans les années 70, avec Arpanet",
+      "answer_2": " Entre 1986 et 1988, avec le Club Dorothée",
+      "answer_3": "En 1990 exactement, avec la naissance d'Emma Watson",
+      "answer_4": "Plutôt en 1993 non ? Sous le mandat Bill Clinton",
+      "right_answer": "Plutôt en 1993 non ? Sous le mandat Bill Clinton"
+    },
+    {
+      "title": "À quoi servent les spécifications ARIA, liées à HTML ?",
+      "answer_1": "à rendre le contenu et les applications web accessibles",
+      "answer_2": " à gérer les familles de polices sur la page web",
+      "answer_3": "à construire des pages web audibles et musicales",
+      "answer_4": "à aider à l'internationalisation du webs",
+      "right_answer": "à rendre le contenu et les applications web accessibles"
+    }
+  ]

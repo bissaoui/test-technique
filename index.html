@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body id="parent" >
+      <h1 id="demoo" class="demo d-none" >1</h1>
+    <div class="container mt-5 info ">
+      <h1 class="my-5 text-center"> Entrez vos informations pour passer le test technique   </h1>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class=" mb-3">
+          <label for="Nom" class="form-label">Nom</label>
+          <input type="text"  required class="form-control" id="Nom" placeholder="Alami">
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class=" mb-3">
+          <label for="Prenom"  class="form-label">Prenom</label>
+          <input type="text" required class="form-control" id="Prenom" placeholder="ali">
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class=" mb-3">
+          <label for="email" class="form-label"> email </label>
+          <input type="email" required class="form-control" id="email" placeholder="name@example.com">
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <label class="my-3"> Choisir la technologie de test : </label>
+        <div class=" mb-3">
+          <input class="form-check-input" type="radio" name="lang" id="HTML" value="HTML" checked>
+          <label class="form-check-label" for="HTML">
+            HTML
+          </label>
+        </div>
+        <div class=" mb-3">
+          <input class="form-check-input" type="radio" name="lang" id="CSS" value="CSS">
+          <label class="form-check-label" for="CSS">
+            CSS
+          </label>
+        </div>
+        <div class=" mb-3">
+          <input class="form-check-input" type="radio" name="lang" id="JavaScript" value="JavaScript" >
+          <label class="form-check-label" for="JavaScript">
+            JavaScript
+          </label>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 my-4">
+          <button class="btn btn-primary submit" type="submit">Valider</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="quiz-app d-none">
+      <div class="quiz-info">
+        <div class="category">TEST: <span id="typeTest">HTML</span></div>
+        <div class="countdown"></div>
+
+      </div>
+
+      <div class="quiz-area cc "></div>
+      <div class="answers-area cc " ></div>
+
+      <button class="submit-button cc">Valider la reponse</button>
+      <div class="bullets cc">
+        <div class="spans"></div>
+        <div class="count">  <span></span></div>
+      </div>
+      <div class="results"></div>
+    </div>
+    <div class="cert-container d-none ">
+      <div class="border-gray">
+        <div class="border-red">
+          <div class="content">
+            <img  id="imgg" style="width: 160px;float: right;">
+                <div class="copytext-container">
+                    <div class="congrats-copytext">
+                        <h1>Certificat d'achèvement</h1><br>
+                        <h2>Toutes nos félicitations : <span id="firstName"></span>&ensp;<span id="lastName"> </span></h2>
+                    </div>
+                      <h2 style="color: var(--bs-teal); margin-bottom: 20px;">Note obtenue  : <span id="note"></span></h2>
+                    <div class="course-copytext">
+                        <h1><span id="titre_cours">{{Course Title}}</span></h1><br>
+                        <h2>Cours terminé le : <span id="date_certification">{{certification_date}}</span></h2><br>
+                    </div>
+                    <div class="address-copytext">
+                        <address> Officers <br> BENGERIR  <br> SAFI, EMSI 40000</address>
+                        <a href="EMSI.ma" id="mt-site"><em>EMSI.ma</em></a>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-warning d-none " id="telecharger"> Telecharger</button>
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script src="https://unpkg.com/html2canvas@latest/dist/html2canvas.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

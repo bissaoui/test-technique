@@ -1,0 +1,164 @@
+[
+    {
+      "title": "Que signifie CSS ?",
+      "answer_1": "Cascading Style Sheets",
+      "answer_2": "Create Simple Samples",
+      "answer_3": "C'est Super Simple !",
+      "answer_4": "Choucroute et Saucisses de Strasbourg",
+      "right_answer": "Cascading Style Sheets"
+    },
+    {
+      "title": "À quoi sert le langage CSS ?",
+      "answer_1": "À réaliser des pages dynamiques",
+      "answer_2": "À ajouter du style aux documents web",
+      "answer_3": "À insérer du contenu dans une page internet",
+      "answer_4": "À simuler une application en mode avion durant les trajets dans un bus",
+      "right_answer": "À ajouter du style aux documents web"
+    },
+    {
+      "title": "Pourquoi utilise-t-on généralement du CSS ?",
+      "answer_1": "Pour se compliquer la vie bien sûr",
+      "answer_2": "Pour séparer le contenu et la présentation des documents web",
+      "answer_3": "Cela permet de faire de plus jolis dégradés de couleurs",
+      "answer_4": "Parce que c'est plus simple à comprendre que JavaScript",
+      "right_answer": "Pour séparer le contenu et la présentation des documents web"
+    },
+    {
+      "title": "Où est-il conseillé de placer le code CSS ?",
+      "answer_1": "Dans le <body>, c'te question",
+      "answer_2": "Entre les balises <head>, c'est bien plus propre",
+      "answer_3": "Dans un fichier externe utilisable pour plusieurs pages",
+      "answer_4": "Dans un fichier JavaScript",
+      "right_answer": "Dans un fichier externe utilisable pour plusieurs pages"
+    },
+    {
+      "title": "Dans quoi définit-on les déclarations CSS ?",
+      "answer_1": "Entre deux crochets séparées par des tirets [ ... - ... ]",
+      "answer_2": "Entre deux guillemets séparées par des slashs ... / ... ",
+      "answer_3": "Entre deux accolades séparés par des points-virgules { ... ; ... }",
+      "answer_4": "Dans un fichier texte de type doc ou docx",
+      "right_answer": "Entre deux accolades séparés par des points-virgules { ... ; ... } "
+    },
+    {
+      "title": "Dans la règle suivante, quel élément deviendra rouge ? strong#intro {background-color: red;}",
+      "answer_1": "L'élément dont l'id est intro et qui est contenu dans un élément <strong>",
+      "answer_2": "L'élément <strong> dont l'id est intro",
+      "answer_3": "Tous les éléments <strong> contenus dans un élément dont l'id est intro",
+      "answer_4": "Tous les éléments <strong> et les éléments dont l'id est intro",
+      "right_answer": "L'élément <strong> dont l'id est intro"
+    },
+    {
+      "title": "Quel élément sépare la propriété de sa valeur ?",
+      "answer_1": "Le signe espace ( )",
+      "answer_2": "Le signe égal (=)",
+      "answer_3": "Le signe deux points (:)",
+      "answer_4": "Le signe point-virgule (;)",
+      "right_answer": "Le signe deux points (:)"
+    },
+    {
+      "title": "Pourquoi est-il d'usage de sauter une ligne entre chaque déclaration ?",
+      "answer_1": "Pour rien du tout",
+      "answer_2": "Pour que le code soit bien interprété par les navigateurs",
+      "answer_3": "Pour rendre le code plus lisible et la maintenance plus facile",
+      "answer_4": "Pour faciliter les échanges de styles entre deux fichiers (je raconte n'importe quoi là)",
+      "right_answer": "Pour rendre le code plus lisible et la maintenance plus facile"
+    },
+    {
+      "title": "À quoi sert le sélecteur de classe : h2.nomDeClasse ?",
+      "answer_1": "À créer une ancre sur la balise <h2>",
+      "answer_2": "Ah bon ... C'est censé servir à quelque chose ?",
+      "answer_3": "À définir différentes propriétés pour l'élément <h2> dont la classe est nomDeClasse",
+      "answer_4": "À ajouter un peu de classe à notre code parfois un peu tristounet",
+      "right_answer": "À définir différentes propriétés pour l'élément <h2> dont la classe est nomDeClasse"
+    },
+    {
+      "title": "Combien de règles peut contenir un fichier CSS ?",
+      "answer_1": "Il n'y a pas de limite, on peut en créer autant que l'on veut",
+      "answer_2": "Si le poids du fichier n'excède pas 20Ko, c'est tout bon",
+      "answer_3": " 150 à plus ou moins 10%",
+      "answer_4": " Cela dépend des navigateurs",
+      "right_answer": "Il n'y a pas de limite, on peut en créer autant que l'on veut"
+    },
+    {
+      "title": " HTML est considéré comme ______ ?",
+      "answer_1": "Langage de programmation",
+      "answer_2": " Langage POO",
+      "answer_3": "Langage de haut niveau",
+      "answer_4": "Langage de balisage",
+      "right_answer": "Langage de balisage"
+    },
+    {
+      "title": "Parmi ces propriétés, laquelle permet, sur les navigateurs qui la supportent, d'appliquer une largeur de 100% - 50px à l'élément concerné ?",
+      "answer_1": "width: auto - 50px;",
+      "answer_2": " width: 100%- 50px;",
+      "answer_3": "width: calc(100%- 50px);",
+      "answer_4": "width: #captain.flam;",
+      "right_answer": "width: calc(100%- 50px);"
+    },
+    {
+      "title": "Comment faire pour qu'une div prenne toute la largeur disponible dans son bloc conteneur ?",
+      "answer_1": "div {width: 100%; padding: 10%;}",
+      "answer_2": " div {min-width: 100%;}",
+      "answer_3": "div {width: 80%; padding: 10%;}",
+      "answer_4": "C'est automatique, pas besoin de spécifier une largeur.",
+      "right_answer": "C'est automatique, pas besoin de spécifier une largeur."
+    },
+    {
+      "title": "A quoi sert le sélecteur CSS3 h1 ~ p, reconnu depuis IE7 ?",
+      "answer_1": "à cibler tous les paragraphes qui suivent un titre h1",
+      "answer_2": " à cibler les éléments h1 s'ils contiennent un paragraphe ",
+      "answer_3": "à cibler tous les titres et paragraphes de la page",
+      "answer_4": "à cibler tantôt un titre h1, tantôt un paragraphe",
+      "right_answer": "à cibler tous les paragraphes qui suivent un titre h1"
+    },
+    {
+      "title": "Le positionnement relatif (position: relative)...      ",
+      "answer_1": "permet de positionner un élément par rapport à un autre élément, pris comme repère;      ",
+      "answer_2": " permet de positionner un élément par rapport aux limites de son élément parent;      ",
+      "answer_3": "permet de décaler un élément A par rapport à sa position normale, en flux      ",
+      "answer_4": "permet d'appliquer la théorie de la relativité générale ET la théorie de la relativité restreinte à une mise en page.      ",
+      "right_answer": "permet de décaler un élément A par rapport à sa position normale, en flux      "
+    },
+    {
+      "title": "Où se placera un élément positionné en absolu (position: absolute) avec left: 100px ?",
+      "answer_1": "À 100px du bord gauche de la fenêtre du navigateur;      ",
+      "answer_2": " À 100px du bord gauche de l'élément html;      ",
+      "answer_3": "À 100px du bord gauche de l'élément body;      ",
+      "answer_4": "À 100px du bord gauche de son plus proche ancêtre positionné.      ",
+      "right_answer": "À 100px du bord gauche de son plus proche ancêtre positionné.      "
+    },
+    {
+      "title": "Comment cibler les 4 premiers éléments d'une liste ?      ",
+      "answer_1": "li:nth-child(4n)      ",
+      "answer_2": " li:nth-child(-n+4)      ",
+      "answer_3": "li:nth-child(4-n)      ",
+      "answer_4": "li:nth-child(substr(4))      ",
+      "right_answer": "li:nth-child(-n+4)      "
+    },
+    {
+      "title": "Où va se positionner un élément doté d'une déclaration transform: translate(0,100px) ?      ",
+      "answer_1": "Poussé vers le bas de 100px      ",
+      "answer_2": " Poussé vers la droite de 100px      ",
+      "answer_3": "Poussé tantôt à droite tantôt vers le bas selon son positionnement      ",
+      "answer_4": "Je préfère ne pas le dire      ",
+      "right_answer": "Poussé vers le bas de 100px      "
+    },
+    {
+      "title": "Si j'écris a:active {color: red;} dans ma feuille de style, quels liens seront de couleur rouge ?      ",
+      "answer_1": "les liens pointant vers des pages mises à jour régulièrement      ",
+      "answer_2": " les liens pointant vers la page en cours (par exemple dans un menu de navigation)      ",
+      "answer_3": "n'importe quel lien de la page, mais uniquement au moment où on clique sur ce lien      ",
+      "answer_4": "n'importe quel lien de la page, mais uniquement au moment où on survole ce lien avec le pointeur de la souris      ",
+      "right_answer": "n'importe quel lien de la page, mais uniquement au moment où on clique sur ce lien      "
+    },
+    {
+      "title": "À quoi correspond une hauteur de 50vh ?      ",
+      "answer_1": "à la moitié de la hauteur du parent      ",
+      "answer_2": " à la moitié de la hauteur de la fenêtre      ",
+      "answer_3": "à la moitié de la hauteur de ses enfants      ",
+      "answer_4": "à un décalage de 50%      ",
+      "right_answer": "à la moitié de la hauteur de la fenêtre      "
+    }
+
+    
+  ]

@@ -1,0 +1,162 @@
+[
+    {
+      "title": " Dans quel balise HTML plaçons-nous le code JavaScript?",
+      "answer_1": "La balise js",
+      "answer_2": "La balise javascript",
+      "answer_3": "La balise script",
+      "answer_4": "La balise rel",
+      "right_answer": "La balise script"
+    },
+    {
+      "title": "Comment faire appelle à une fonction nommée « sum »?",
+      "answer_1": "sum()",
+      "answer_2": "call function sum()",
+      "answer_3": ".hml",
+      "answer_4": "Aucune de ces réponses n’est vraie.",
+      "right_answer": "sum()"
+    },
+    {
+      "title": "Quelle est la syntaxe correcte pour faire référence à un script externe appelé « myscript.js »?",
+      "answer_1": "script href=myscript.js",
+      "answer_2": "script name=myscript.js",
+      "answer_3": "<script src=myscript.js",
+      "answer_4": "Tout les réponses sont vrais",
+      "right_answer": "<script src=myscript.js"
+    },
+    {
+      "title": " Quel est le bon endroit pour insérer un code JavaScript?",
+      "answer_1": "La section <head>",
+      "answer_2": "Les deux sections <head> et <body> sont correctes",
+      "answer_3": "La section <body>",
+      "answer_4": "Aucune de ces réponses n’est vraie.",
+      "right_answer": "Les deux sections <head> et <body> sont correctes"
+    },
+    {
+      "title": "Comment écrire une condition IF en JavaScript?",
+      "answer_1": "if a = 2 then",
+      "answer_2": "if a = 2",
+      "answer_3": "if a == 2 else",
+      "answer_4": "if (a == 2)",
+      "right_answer": "if (a == 2)"
+    },
+    {
+      "title": "Comment écrire une condition IF pour vérifier si « a » n’est PAS égal à 2?",
+      "answer_1": "if a <> 2",
+      "answer_2": "if (a != 2)",
+      "answer_3": "if a =! 2 then",
+      "answer_4": "if (a <> 2)",
+      "right_answer": "if (a != 2)"
+    },
+    {
+      "title": " Comment créer une fonction en JavaScript?",
+      "answer_1": "function f()",
+      "answer_2": " function = f()",
+      "answer_3": "function:f()",
+      "answer_4": " Aucune de ces réponses n’est vraie.",
+      "right_answer": "function f()"
+    },
+    {
+      "title": "Quelle est la syntaxe correcte pour vérifier la valeur de « c » ?",
+      "answer_1": "if (c == XYZ) then { } else { }",
+      "answer_2": "if (c = XYZ) then { } else { }",
+      "answer_3": "if (c == XYZ) { } else { }",
+      "answer_4": "if (c = XYZ) { } else { }",
+      "right_answer": "if (c == XYZ) { } else { }"
+    },
+    {
+      "title": " Comment arrondir le nombre 3.12 à un nombre entier plus proche?",
+      "answer_1": "Math.round(3.12)",
+      "answer_2": "Math.rnd(3.12)",
+      "answer_3": "float(3.12)",
+      "answer_4": "Math.float(3.12)",
+      "right_answer": "Math.round(3.12)"
+    },
+    {
+      "title": "Quelle est la syntaxe correct de la boucle while?",
+      "answer_1": "while (i <= 5)",
+      "answer_2": "while i = 1 to 5",
+      "answer_3": "while (i <= 5; i++)",
+      "answer_4": "while (i=0; i <= 5; i++)",
+      "right_answer": "while (i <= 5)"
+    },
+    {
+      "title": "Quelle est la syntaxe correct de la boucle for?",
+      "answer_1": "for (i <= 10; i++)",
+      "answer_2": "for i = 1 to 10",
+      "answer_3": "for (i = 0; i <= 10)",
+      "answer_4": "for (i = 0; i <= 10; i++)",
+      "right_answer": "for (i = 0; i <= 10; i++)"
+    },
+    {
+      "title": "Comment déclarer un tableau « tab » de 10 éléments ?",
+      "answer_1": "tab = new Array(10)",
+      "answer_2": "var tab[10]",
+      "answer_3": "var tab = array(10)",
+      "answer_4": "var tab(10)",
+      "right_answer": "tab = new Array(10)"
+    },
+    {
+      "title": "Quel est le code pour obtenir un nombre aléatoire compris entre 5 et 9 inclus?      ",
+      "answer_1": "Math.floor((Math.random() * 5) + 4);",
+      "answer_2": "Math.floor((Math.random() * 4) + 4);",
+      "answer_3": "Math.floor((Math.random() * 4) + 5);",
+      "answer_4": "Math.floor((Math.random() * 5) + 5);",
+      "right_answer": "Math.floor((Math.random() * 5) + 5);"
+    },
+    {
+      "title": "Pour vérifier si trois variables sont égaux, nous utiliserons_____ ?",
+      "answer_1": "X = Y = Z",
+      "answer_2": "(X == B) && (Y == Z)",
+      "answer_3": "(X = B) && (Y = Z)",
+      "answer_4": "(X == B) & (Y == Z)",
+      "right_answer": "(X == B) && (Y == Z)"
+    },
+    {
+      "title": "Combien de paramètres peuvent être passés à une fonction?",
+      "answer_1": "Aucune",
+      "answer_2": "Autant que vous voulez",
+      "answer_3": "Un pour chaque argument",
+      "answer_4": "Un",
+      "right_answer": "Un pour chaque argument"
+    },
+    {
+      "title": "Lequel de ces paramètres n’est pas valide?",
+      "answer_1": "texte",
+      "answer_2": "variable",
+      "answer_3": "opérateur",
+      "answer_4": "nombre",
+      "right_answer": "opérateur"
+    },
+    {
+      "title": "L’instruction suivante A ? B : C est équivalent à ______?",
+      "answer_1": "if (A) {B; C}",
+      "answer_2": "if (A != B) C",
+      "answer_3": "if (A == B) C",
+      "answer_4": "if (A) {B} else {C}",
+      "right_answer": "if (A) {B} else {C}"
+    },
+    {
+      "title": "Comment pouvez-vous détecter le nom du navigateur du client?",
+      "answer_1": "navigator.appName",
+      "answer_2": "browser.name",
+      "answer_3": "client.navName",
+      "answer_4": "window.appName",
+      "right_answer": "navigator.appName"
+    },
+    {
+      "title": "Lequel n’est pas un opérateur de comparaison?",
+      "answer_1": "<      ",
+      "answer_2": ">",
+      "answer_3": "=",
+      "answer_4": "!= ",
+      "right_answer": "="
+    },
+    {
+      "title": "Comment trouvez-vous le nombre avec la plus grande valeur de « a » et « b »?",
+      "answer_1": "Math.ceil(a, b)",
+      "answer_2": "Math.max(a, b)",
+      "answer_3": "ceil(a, b)",
+      "answer_4": "top(a, b)",
+      "right_answer": "Math.max(a, b)"
+    }
+  ]
